@@ -7,7 +7,7 @@
 
 ## Docente
 ### Dra. Andrea Paula Goijman. INTA EEA La Consulta, Mendoza
-#### email: goijman.andrea@inta.gob.ar
+### email: goijman.andrea@inta.gob.ar
 
 
 <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=25% height=25%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=20% height=20%>   
