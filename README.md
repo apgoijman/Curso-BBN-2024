@@ -11,7 +11,7 @@
 ### Dra. Andrea Paula Goijman. INTA EEA La Consulta, Mendoza
 #### email: goijman.andrea@inta.gob.ar
 
-<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=17% height=17%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=17% height=17%>   
+<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=20% height=20%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=20% height=20%>   
 
 ## Horario
 Lunes a viernes de 8.30-12.15hs y de 13.45-18hs (+5hs extra lecturas)
@@ -34,7 +34,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 ## Requisitos
 - Netica (https://www.norsys.com/netica.html)
-- Para descargar (https://www.norsys.com/download.html) Se puede usar sin licencia en una versión limitada, pero que sirve para el curso.
+Para descargar el programa (https://www.norsys.com/download.html) - Se puede usar sin licencia en una versión limitada, pero que sirve para el curso.
 
 ## Programa
 
