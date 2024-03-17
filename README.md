@@ -1,9 +1,11 @@
 # Redes Bayesianas para la toma de decisiones para el manejo y conservación de recursos naturales.
 ### CCT CONICET Mendoza 13 - 17 Mayo 2024 
-<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen4.png" width=7% height=7%>
 
 
-Duración: 45 h. Modalidad presencial.
+<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen4.png" width=8% height=8%>
+
+
+## Duración: 45 h. Modalidad presencial.
 
 ## Docentes
 - Dra. Andrea Paula Goijman. INTA EEA La Consulta, Mendoza. 
@@ -14,15 +16,12 @@ Duración: 45 h. Modalidad presencial.
 Lunes a viernes de 8.30-12.15hs y de 13.45-18hs (+5hs extra lecturas)
 
 ## Resumen del curso
-El curso está orientado a proveer bases y herramientas para el manejo y la conservación de vida silvestre y recursos naturales, utilizando herramientas provistas por el análisis de decisión y las redes de creencia bayesianas (BBN). La toma de
-decisiones aplicada a la conservación de recursos naturales se orienta a resolver problemas complejos y/o con objetivos múltiples utilizando un enfoque sistemático e interdisciplinario. Dicho enfoque integra componentes sociales, económicos y
-ecológicos, enfocándose en los objetivos y valores de los actores. Las redes de creencia Bayesianas, son una herramienta de gran utilidad en los casos de toma de decisiones o evaluaciones de sistemas socio-ecológicos a distintas escalas. Permiten la incorporación de incertidumbre por medio de probabilidades condicionales, incorporar conocimiento de expertos o empírico, y trabajar con información cuali o
-cuantitativa. Por medio de las Redes bayesianas se puede evaluar compromisos y sinergias entre, por ejemplo, contribuciones de la naturaleza a las personas (o servicios ecosistémicos), y diferentes dimensiones de interés. 
+El curso está orientado a proveer bases y herramientas para el manejo y la conservación de vida silvestre y recursos naturales, utilizando herramientas provistas por el análisis de decisión y las redes de creencia bayesianas (BBN). La toma de decisiones aplicada a la conservación de recursos naturales se orienta a resolver problemas complejos y/o con objetivos múltiples utilizando un enfoque sistemático e interdisciplinario. Dicho enfoque integra componentes sociales, económicos y ecológicos, enfocándose en los objetivos y valores de los actores. Las redes de creencia Bayesianas, son una herramienta de gran utilidad en los casos de toma de decisiones o evaluaciones de sistemas socio-ecológicos a distintas escalas. Permiten la incorporación de incertidumbre por medio de probabilidades condicionales, incorporar conocimiento de expertos o empírico, y trabajar con información cuali o cuantitativa. Por medio de las Redes bayesianas se puede evaluar compromisos y sinergias entre, por ejemplo, contribuciones de la naturaleza a las personas (o servicios ecosistémicos), y diferentes dimensiones de interés. 
 
 ## Objetivos del curso
- Proveer bases para abordar problemas multidimensionales de sistemas socioecológicos
- Proveer herramientas para estructurar un problema, basándose en los objetivos del mismo y armado de redes conceptuales
- Aprendizaje para la implementación y aplicaciones de las Redes de creencia bayesianas.
+- Proveer bases para abordar problemas multidimensionales de sistemas socioecológicos
+- Proveer herramientas para estructurar un problema, basándose en los objetivos del mismo y armado de redes conceptuales
+- Aprendizaje para la implementación y aplicaciones de las Redes de creencia bayesianas.
 
 ## Expectativas
 - Breve presentación de los alumnos
