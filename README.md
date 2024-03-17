@@ -2,16 +2,16 @@
 ### CCT CONICET Mendoza 13 - 17 Mayo 2024 
 
 
-<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen4.png" width=8% height=8%>
+<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen4.png" width=10% height=10%>
 
 
-## Duración: 45 h. Modalidad presencial.
+### Duración: 45 h. Modalidad presencial.
 
 ## Docentes
 ### Dra. Andrea Paula Goijman. INTA EEA La Consulta, Mendoza
-goijman.andrea@inta.gob.ar
+#### email: goijman.andrea@inta.gob.ar
 
-<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=17% height=17%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=17% height=17%>   <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/logo_giepco.png" width=17% height=17%> 
+<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=17% height=17%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=17% height=17%>   
 
 ## Horario
 Lunes a viernes de 8.30-12.15hs y de 13.45-18hs (+5hs extra lecturas)
