@@ -10,7 +10,7 @@
 ### email: goijman.andrea@inta.gob.ar
 
 
-<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=25% height=25%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=20% height=20%>   
+<img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=30% height=30%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=30% height=30%>   
 
 
 
@@ -31,7 +31,8 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 - ¿Cuáles son sus expectativas? 
 - Mis expectativas...
 
-![image](https://user-images.githubusercontent.com/124918841/222793849-89917531-59a4-4047-93ab-1148d1030d38.png)
+<img src="(https://user-images.githubusercontent.com/124918841/222793849-89917531-59a4-4047-93ab-1148d1030d38.png)" width=70% height=70%>   
+
 
 
 ## Requisitos
