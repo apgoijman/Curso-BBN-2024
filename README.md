@@ -5,15 +5,14 @@
 <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen4.png" width=10% height=10%>
 
 
-### Duración: 45 h. Modalidad presencial.
-
-## Docentes
+## Docente
 ### Dra. Andrea Paula Goijman. INTA EEA La Consulta, Mendoza
 #### email: goijman.andrea@inta.gob.ar
 
 <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen2.png" width=20% height=20%>    <img src="https://github.com/apgoijman/Curso-Ocupacion23/blob/main/varios/Imagen3.png" width=20% height=20%>   
 
 ## Horario
+Duración: 45 h. Modalidad presencial.
 Lunes a viernes de 8.30-12.15hs y de 13.45-18hs (+5hs extra lecturas)
 
 ## Resumen del curso
