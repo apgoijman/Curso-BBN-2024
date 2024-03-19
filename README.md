@@ -37,7 +37,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 ## Requisitos
 - Netica (https://www.norsys.com/netica.html)
-Para descargar el programa (https://www.norsys.com/download.html) - Se puede usar sin licencia en una versión limitada, pero que sirve para el curso.
+- Para descargar el programa (https://www.norsys.com/download.html) - Se puede usar sin licencia en una versión limitada, pero que sirve para el curso.
 
 
 
