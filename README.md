@@ -41,10 +41,10 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 
 
-## Programa
+# Programa
 
-### DIA 1
-Generalidades sobre manejo y conservación y breve reseña histórica de enfoques de manejo que incluyen dimensión humana.
+## DIA 1
+### Generalidades sobre manejo y conservación y breve reseña histórica de enfoques de manejo que incluyen dimensión humana.
 - [MODULO 1 - **Presentacion**]()
   
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)
@@ -55,20 +55,20 @@ Generalidades sobre manejo y conservación y breve reseña histórica de enfoque
     - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
 
 
-Redes conceptuales y Redes Bayesianas
+### Redes conceptuales y Redes Bayesianas
 - [MODULO 2 - **Presentacion**]()
 
-Introducción a la toma de decisiones con foco puesto en los valores para el manejo. Método de toma de decisiones estructuradas.
+### Introducción a la toma de decisiones con foco puesto en los valores para el manejo. Método de toma de decisiones estructuradas.
 - [MODULO 3 - **Presentacion**]()
 
 - **Practico armado red conceptual**
 
 - 
-- Prototipado rápido y Ejemplos de análisis de decisión aplicado al manejo de recursos naturales.
+### Prototipado rápido y Ejemplos de análisis de decisión aplicado al manejo de recursos naturales.
 - [MODULO 4 - **Presentacion**]()
 
 - 
-- Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
+### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
 -[MODULO 5 - **Presentacion**]()
 
 - **Practico definición de problemas** 
