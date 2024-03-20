@@ -48,12 +48,11 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 - [MODULO 1 - **Presentacion**]()
   
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)
-  Algunas preguntas guía
+  - Algunas preguntas guía
     - Discutimos los pasos…
     - ¿Dónde está puesto el/los objetivo para el diseño de paisaje?
     - ¿Qué manejo proponen para los parches de hábitat natural? ¿por qué piensan?
     - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
-![image](https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/06d776e6-69d8-4a93-8bd6-2093c4ece803)
 
 
 - Redes conceptuales y Redes Bayesianas
