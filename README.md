@@ -44,6 +44,29 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ## Programa
 
 ### DIA 1
+- Generalidades sobre manejo y conservación y breve reseña histórica de enfoques de manejo que incluyen dimensión humana.
+- [MODULO 1 - **Presentacion**]()
+
+- Redes conceptuales y Redes Bayesianas
+- [MODULO 2 - **Presentacion**]()
+
+- Introducción a la toma de decisiones con foco puesto en los valores para el manejo. Método de toma de decisiones estructuradas.
+- [MODULO 3 - **Presentacion**]()
+
+- **Practico armado red conceptual**
+
+- 
+- Prototipado rápido y Ejemplos de análisis de decisión aplicado al manejo de recursos naturales.
+- [MODULO 4 - **Presentacion**]()
+
+- 
+- Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
+-[MODULO 5 - **Presentacion**]()
+
+- **Practico definición de problemas** 
+
+
+
 - Conceptos básicos para estudios de poblaciones y comunidades de fauna silvestre: Algunas definiciones - Poblaciones cerradas y abiertas – Comunidades – observaciones en ecología
     - [Modulo 1 - **Presentación**](https://github.com/apgoijman/Curso-Ocupacion23/blob/main/Modulo%201_Occupacion2023.pdf)
     - [Modulo 1 - Ejercicio](https://github.com/apgoijman/Curso-Ocupacion23/blob/main/EjerciciosEjemplos/Modulo1-Intro/Modulo%201.R)
