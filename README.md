@@ -47,7 +47,9 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ### Generalidades sobre manejo y conservación y breve reseña histórica de enfoques de manejo que incluyen dimensión humana.
 - [MODULO 1 - **Presentacion**]()
   
-- [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)   <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/02c27b9c-89dc-441f-a381-f7c9cdc635d9" width=50% height=50%> 
+- [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/02c27b9c-89dc-441f-a381-f7c9cdc635d9" width=50% height=50%> 
   
   - Algunas preguntas guía
     - Discutimos los pasos…
