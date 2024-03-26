@@ -1,4 +1,4 @@
-# Redes Bayesianas para la toma de decisiones para el manejo y conservación de recursos naturales.
+![image](https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/336744ae-569a-401f-bb6a-84baa1a18046)# Redes Bayesianas para la toma de decisiones para el manejo y conservación de recursos naturales.
 ### CCT CONICET Mendoza 13 - 17 Mayo 2024 
 
 
@@ -48,11 +48,15 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 - [MODULO 1 - **Presentacion**]()
   
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)
+
+  ![image](https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/02c27b9c-89dc-441f-a381-f7c9cdc635d9)
+
   - Algunas preguntas guía
     - Discutimos los pasos…
     - ¿Dónde está puesto el/los objetivo para el diseño de paisaje?
     - ¿Qué manejo proponen para los parches de hábitat natural? ¿por qué piensan?
     - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
+    - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
 
 
 ### Redes conceptuales y Redes Bayesianas
