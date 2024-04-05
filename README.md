@@ -45,7 +45,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 ## DIA 1
 ### Generalidades sobre manejo y conservación de recursos naturales.
-- [MODULO 1 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/2024%20Mod01%20-%20ManejoGral.pdf)
+- [MODULO 1 - **Presentacion**]((https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod01%20-%20ManejoGral.pdf))
   
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)
 
