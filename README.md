@@ -59,17 +59,19 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
     - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
 
 
-### Redes conceptuales y Redes Bayesianas
-- [MODULO 2 - **Presentacion**]()
 
 ### Introducción a la toma de decisiones con foco puesto en los valores para el manejo. Método de toma de decisiones estructuradas.
-- [MODULO 3 - **Presentacion**]()
+- [MODULO 2 - **Presentacion**]()
 
 - **Practico armado red conceptual**
 
 - 
 ### Prototipado rápido y Ejemplos de análisis de decisión aplicado al manejo de recursos naturales.
 - [MODULO 4 - **Presentacion**]()
+
+
+### Redes conceptuales y Redes Bayesianas
+- [MODULO 2 - **Presentacion**]()
 
 - 
 ### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
