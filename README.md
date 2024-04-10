@@ -70,8 +70,8 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
    - Exposición y discusión grupal (60 minutos)
 (ej. ¿Fue sencillo el armado de la RC? ¿Encontraron limitantes para armar la RC?)
 
-<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/7462c030-3079-4f51-8d4f-91d8309a3abc" width=30% height=30%>
-<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76850029-5495-447b-9b69-aa5c7f834076" width=30% height=30%>
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/7462c030-3079-4f51-8d4f-91d8309a3abc" width=50% height=50%>
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76850029-5495-447b-9b69-aa5c7f834076" width=50% height=50%>
   
  
 ### Prototipado rápido y Ejemplos de análisis de decisión aplicado al manejo de recursos naturales.
