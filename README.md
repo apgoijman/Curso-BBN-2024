@@ -44,6 +44,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 # Programa
 
 ## DIA 1
+-----------------------------------------------------------------------------------
 ### Generalidades sobre manejo y conservación de recursos naturales.
 - [MODULO 1 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod01%20-%20ManejoGral.pdf)
    
@@ -59,8 +60,8 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
     - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
 
 
-
-### Introducción a la toma de decisiones con foco puesto en los valores para el manejo. Método de toma de decisiones estructuradas.
+------------------------------------------------------------------------------------
+### Toma de decisiones y breve introducción a Redes Bayesianas
 - [MODULO 2 - **Presentacion**]()
 
 - **Practico armado red conceptual**
