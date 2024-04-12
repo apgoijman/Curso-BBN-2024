@@ -64,7 +64,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ### Toma de decisiones y breve introducción a Redes Bayesianas
 - [MODULO 2 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod02%20-%20IntroTDyRB.pdf)
 
-- **Practico armado red conceptual**
+- **Practico armado red conceptual** [2hs]
    - Nos dividimos en 4 grupos
    - Elegir un proyecto en el que quieran trabajar (15 minutos)
    - Elaborar una red conceptual donde se incluyan las variables del problema (30 minutos)
@@ -75,18 +75,17 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76850029-5495-447b-9b69-aa5c7f834076" width=50% height=50%>
   
 --------------------------------------------------------------------------------- 
-### Prototipado rápido y Ejemplos de análisis de decisión aplicado al manejo de recursos naturales.
-- [MODULO 4 - **Presentacion**]()
-
-
-### Redes conceptuales y Redes Bayesianas
-- [MODULO 2 - **Presentacion**]()
-
-- 
 ### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
--[MODULO 5 - **Presentacion**]()
+-[MODULO 3 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod03%20-%20Problema.pdf)
 
-- **Practico definición de problemas** 
+- **Practico definición de problemas** [2hs]
+  - Nos dividimos en 4 grupos
+  - Elegir un proyecto en el que quieran trabajar (15 minutos)
+  - Comenzar con la definición del problema (60 minutos)
+  - Exposición y discusión grupal (60 minutos)
+---------------------------------------------------------------------------------
+
+
 
 
 
