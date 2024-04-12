@@ -76,7 +76,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
   
 --------------------------------------------------------------------------------- 
 ### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
--[MODULO 3 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod03%20-%20Problema.pdf)
+- [MODULO 3 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod03%20-%20Problema.pdf)
 
 - **Practico definición de problemas** [2hs]
   - Nos dividimos en 4 grupos
@@ -85,15 +85,39 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
   - Exposición y discusión grupal (60 minutos)
 ---------------------------------------------------------------------------------
 
+## DIA 2
+- [Práctica - **Discusión de paper**]()
 
+  - Algunas preguntas guía
+    - Discutimos los pasos…
+    - ¿Dónde está puesto el/los objetivo para el diseño de paisaje?
+    - ¿Qué manejo proponen para los parches de hábitat natural? ¿por qué piensan?
+    - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
+    - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
 
+-----------------------------------------------------------------------------------
 
+MODULO 5: Determinando objetivos basados en valores: objetivos
+fundamentales, medios y estratégicos. Tipos de atributos medibles.
+- Práctico definición de objetivos
+- MODULO 6: Armado de redes conceptuales
+- Práctico redes conceptuales
 
-- Conceptos básicos para estudios de poblaciones y comunidades de fauna silvestre: Algunas definiciones - Poblaciones cerradas y abiertas – Comunidades – observaciones en ecología
-    - [Modulo 1 - **Presentación**](https://github.com/apgoijman/Curso-Ocupacion23/blob/main/Modulo%201_Occupacion2023.pdf)
-    - [Modulo 1 - Ejercicio](https://github.com/apgoijman/Curso-Ocupacion23/blob/main/EjerciciosEjemplos/Modulo1-Intro/Modulo%201.R)
-
-- Conceptos básicos de estadística: Tipos de modelos y rol de los modelos en ciencia - Modelos estadísticos - Distribuciones de probabilidad - Probabilidad,
-verosimilitud - Precisión, sesgo, exactitud. 
-    - [Modulo 2 - **Presentación**](https://github.com/apgoijman/Curso-Ocupacion23/files/10883613/Modulo.2_Occupacion2023.pdf)
-
+## Miércoles
+- Presentaciones avance del trabajo
+- MODULO 7: Claves para desarrollar alternativas de manejo.
+- MODULO 8: Predicción de consecuencias, modelado y probabilidad
+condicional - diagramas de influencia, redes de decisión.
+- Práctico continuación de trabajos grupales
+- MODULO Practico: Redes de creencia Bayesianas en el software NETICA.
+## Jueves
+- MODULO 9: Métodos de análisis y optimización para selección de alternativas:
+Tablas de consecuencia, árboles de decisión, Redes de creencia Bayesiana
+(BBN) - Función de utilidad y métodos de obtención de valores
+- Práctico continuación de trabajos grupales, construcción de la red bayesiana
+## Viernes
+- MODULO 10: Redes de Creencia Bayesianas (BBN) para el manejo y/o
+evaluación de sistemas socio-ecológicos (ej. Agroecología, foco en
+evaluaciones ecosistémicas, compromisos y sinergias, servicios ecosistémicos,
+etc.)
+- Práctico continuación de trabajos grupales y presentaciones finales
