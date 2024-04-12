@@ -43,8 +43,9 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 # Programa
 
-## DIA 1
 -----------------------------------------------------------------------------------
+## DIA 1
+
 ### Generalidades sobre manejo y conservación de recursos naturales.
 - [MODULO 1 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod01%20-%20ManejoGral.pdf)
    
@@ -86,7 +87,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ---------------------------------------------------------------------------------
 
 ## DIA 2
-- [Práctica - **Discusión de paper**]()
+- [Práctica - **Discusión de paper**](BIBLIOGRAFIA/Aguilera 2011.pdf)
 
   - Algunas preguntas guía
     - Discutimos los pasos…
