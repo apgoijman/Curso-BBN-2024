@@ -87,7 +87,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ---------------------------------------------------------------------------------
 
 ## DIA 2
-- [Práctica - **Discusión de paper**](BIBLIOGRAFIA/Aguilera 2011.pdf)
+- [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
 
   - Algunas preguntas guía
     - Discutimos los pasos…
