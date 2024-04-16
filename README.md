@@ -84,23 +84,46 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
   - Elegir un proyecto en el que quieran trabajar (15 minutos)
   - Comenzar con la definición del problema (60 minutos)
   - Exposición y discusión grupal (60 minutos)
+
+ ###########################################################
+# Elaborando el Enunciado de un Problema
+
+   - No asumas que el problema es obvio
+   - Se conciso.
+   - En esta atapa, tratá de identificar y cuestionar supuestos percibidos (limitaciones).
+
+Elementos a considerar:
+•	Tomador de Decisión – ¿Quién toma la decisión?
+•	Disparador –  ¿Por qué hay que tomar una decisión? ¿Por qué importa?
+•	Acción –  ¿Cuál es la decisión? ¿Que acción tiene que ser tomada?
+•	Limitaciones – legales, financieras, políticas ¿reales o percibidas?
+•	Alcance – ¿Cuán amplia o complicada es la decisión?
+•	Clase o tipo de problema – ¿Cuantos objetivos? ¿Están en conflicto? ¿Cuál es el nivel de incertidumbre?
+ ###########################################################
+
 ---------------------------------------------------------------------------------
 
 ## DIA 2
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
 
   - Algunas preguntas guía
-    - Discutimos los pasos…
-    - ¿Dónde está puesto el/los objetivo para el diseño de paisaje?
-    - ¿Qué manejo proponen para los parches de hábitat natural? ¿por qué piensan?
-    - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
-    - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
+    - xxxxxxxxx
+    - xxxxxxxxx
 
 -----------------------------------------------------------------------------------
+### Determinando objetivos: Clasificación de objetivos y atributos medibles.
+- [MODULO 4 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod04%20-%20Objetivos.pdf)
 
-MODULO 5: Determinando objetivos basados en valores: objetivos
-fundamentales, medios y estratégicos. Tipos de atributos medibles.
-- Práctico definición de objetivos
+- **Practico delineando objetivos** [2hs]
+  - Cada grupo continúa trabajando en el problema, definiendo objetivos
+  - Clasificar objetivos y definir atributos medibles para cada objetivo
+  - Comenzamos el armado red conceptual
+
+
+
+
+
+
 - MODULO 6: Armado de redes conceptuales
 - Práctico redes conceptuales
 
