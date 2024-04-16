@@ -118,10 +118,41 @@ Elementos a considerar:
   - Clasificar objetivos y definir atributos medibles para cada objetivo
   - Comenzamos el armado red conceptual
 
+````
+RECETARIO PARA DETERMINAR OBJETIVOS
+
+1.	Convertir las metas y preocupaciones en objetivos
+   + ¿Por qué es difícil tomar una decisión?
+   + ¿Cuáles son las preocupaciones críticas?
+   + ¿Qué resultado espero?
+   + ¿Que quiero evitar?
+   + ¿Qué quiero alcanzar?
+
+3.	Clasificar los objetivos
+   + Fundamental: La razón básica para preocuparse por la decisión (esencial)
+   + Medio:  Influye en el logro de los objetivos fundamentales (no necesariamente esencial)
+   + De Proceso: Se refiere a cómo es tomada la decisión, más que qué decisión es tomada
+   + Estratégico:  Objetivo de mayor nivel cubriendo las decisiones tomadas por la institución, organización o persona
+
+      a)	Distinguir entre medios y fundamentales
+      b)	Crear una jerarquía de objetivos
+
+4.	Crear atributos medibles para cada objetivo
+  + Contenido (qué se va a medir)
+  + Dirección preferida del contenido
+  + Aspiración
+      Maximizar (o minimizar)
+      Un umbral
+      Un nivel de cambio en particular
+
+  + Tipos de Atributos
+    1.	Atributos Naturales: El objetivo es medido directamente
+    2.	Atributo Construido: Escala relativa - Requiere de interpretación
+    3.	Atributo “proxy”: Atributo natural que está altamente correlacionado con el objetivo pero no lo mide directamente
+````
 
 
-
-
+--------------------------------------------------------------------------------------
 
 - MODULO 6: Armado de redes conceptuales
 - Práctico redes conceptuales
