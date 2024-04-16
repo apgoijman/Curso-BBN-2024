@@ -85,22 +85,21 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
   - Comenzar con la definición del problema (60 minutos)
   - Exposición y discusión grupal (60 minutos)
 
- ###########################################################
-# Elaborando el Enunciado de un Problema
+````
+ELABORANDO EL ENUNCIADO DE UN PROBLEMA
 
    - No asumas que el problema es obvio
    - Se conciso.
    - En esta atapa, tratá de identificar y cuestionar supuestos percibidos (limitaciones).
 
 Elementos a considerar:
-•	Tomador de Decisión – ¿Quién toma la decisión?
-•	Disparador –  ¿Por qué hay que tomar una decisión? ¿Por qué importa?
-•	Acción –  ¿Cuál es la decisión? ¿Que acción tiene que ser tomada?
-•	Limitaciones – legales, financieras, políticas ¿reales o percibidas?
-•	Alcance – ¿Cuán amplia o complicada es la decisión?
-•	Clase o tipo de problema – ¿Cuantos objetivos? ¿Están en conflicto? ¿Cuál es el nivel de incertidumbre?
- ###########################################################
-
+   •	Tomador de Decisión – ¿Quién toma la decisión?
+   •	Disparador –  ¿Por qué hay que tomar una decisión? ¿Por qué importa?
+   •	Acción –  ¿Cuál es la decisión? ¿Que acción tiene que ser tomada?
+   •	Limitaciones – legales, financieras, políticas ¿reales o percibidas?
+   •	Alcance – ¿Cuán amplia o complicada es la decisión?
+   •	Clase o tipo de problema – ¿Cuantos objetivos? ¿Están en conflicto? ¿Cuál es el nivel de incertidumbre?
+````
 ---------------------------------------------------------------------------------
 
 ## DIA 2
