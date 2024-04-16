@@ -103,13 +103,7 @@ Elementos a considerar:
 ---------------------------------------------------------------------------------
 
 ## DIA 2
-- [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
 
-  - Algunas preguntas guía
-    - xxxxxxxxx
-    - xxxxxxxxx
-
------------------------------------------------------------------------------------
 ### Determinando objetivos: Clasificación de objetivos y atributos medibles.
 - [MODULO 4 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod04%20-%20Objetivos.pdf)
 
@@ -151,19 +145,30 @@ RECETARIO PARA DETERMINAR OBJETIVOS
     3.	Atributo “proxy”: Atributo natural que está altamente correlacionado con el objetivo pero no lo mide directamente
 ````
 
+--------------------------------------------------------------------------------------
+### Claves para desarrollar alternativas de manejo.
+- [MODULO 5 - **Presentacion**]()
 
 --------------------------------------------------------------------------------------
+- [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
 
-- MODULO 6: Armado de redes conceptuales
-- Práctico redes conceptuales
+  - Algunas preguntas guía
+    - xxxxxxxxx
+    - xxxxxxxxx
+   
+--------------------------------------------------------------------------------------
+
+
+- MODULO Practico: Redes de creencia Bayesianas en el software NETICA.
+
+
+
 
 ## Miércoles
 - Presentaciones avance del trabajo
-- MODULO 7: Claves para desarrollar alternativas de manejo.
 - MODULO 8: Predicción de consecuencias, modelado y probabilidad
 condicional - diagramas de influencia, redes de decisión.
 - Práctico continuación de trabajos grupales
-- MODULO Practico: Redes de creencia Bayesianas en el software NETICA.
 ## Jueves
 - MODULO 9: Métodos de análisis y optimización para selección de alternativas:
 Tablas de consecuencia, árboles de decisión, Redes de creencia Bayesiana
