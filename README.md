@@ -79,7 +79,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ## DIA 2
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
 
-<img src="(https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/1eac97b1-f0b9-42db-9585-8bbe197aaeb4)" width=50% height=50%> 
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/1eac97b1-f0b9-42db-9585-8bbe197aaeb4" width=50% height=50%> 
 
   - Algunas preguntas guía
     - xxxxxxxxx
