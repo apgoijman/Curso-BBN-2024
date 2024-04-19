@@ -82,9 +82,13 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/1eac97b1-f0b9-42db-9585-8bbe197aaeb4" width=50% height=50%> 
 
   - Algunas preguntas guía
-    - xxxxxxxxx
-    - xxxxxxxxx
-   
+    - ¿Cuáles son las conexiones en este ejemplo?
+    - ¿Por qué está mal la segunda RC?
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/f9f05694-ec2c-4ed8-af27-0b190f8164a2">
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/8bea29dd-02f5-4e87-bbbe-8afb0d175a9e">
+
 --------------------------------------------------------------------------------------
 ### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
 - [MODULO 3 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod03%20-%20Problema.pdf)
