@@ -147,7 +147,7 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 
 --------------------------------------------------------------------------------------
 ### Claves para desarrollar alternativas de manejo.
-- [MODULO 5 - **Presentacion**]()
+- [MODULO 5 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod05%20-%20Alternativas.pdf)
 
 --------------------------------------------------------------------------------------
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
@@ -157,6 +157,10 @@ RECETARIO PARA DETERMINAR OBJETIVOS
     - xxxxxxxxx
    
 --------------------------------------------------------------------------------------
+### Predicción de consecuencias, modelado y probabilidad condicional - diagramas de influencia, redes de decisión.
+- [MODULO 5 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod06%20-%20Consecuencias.pdf)
+
+
 
 
 - MODULO Practico: Redes de creencia Bayesianas en el software NETICA.
