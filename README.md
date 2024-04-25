@@ -171,6 +171,9 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 - [MODULO Practico - **Redes de creencia Bayesianas en el software NETICA**]()
 
 
+## Ejercicios
+![image](https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/29ad48ba-f801-4a51-9880-c955478f1b29)
+
 
 
 ## Miércoles
