@@ -179,7 +179,7 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 --------------------------------------------------------------------------------------
 ## DIA 4
 
-- [Práctica - **Discusión de paper**](rusch 2016 y Rositano 2014)
+- [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Rusch%202017.pdf)
 
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76d041d7-29b1-4ab4-8881-85eb73716c99" width=50% height=50%> 
 
