@@ -173,7 +173,7 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 - [MODULO Practico - **Redes de creencia Bayesianas en el software NETICA**]()
 
 ### Compromisos: Repaso por métodos de análisis y optimización
-- [MODULO 7 - **Presentacion Compromisos**]((https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod07%20-%20Compromisos.pdf)
+- [MODULO 7 - **Presentacion Compromisos**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod07%20-%20Compromisos.pdf)
 
 ### Continua trabajo grupal y armado de Redes Bayesianas
 --------------------------------------------------------------------------------------
