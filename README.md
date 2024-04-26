@@ -79,10 +79,16 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 ## DIA 2
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
 
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/1eac97b1-f0b9-42db-9585-8bbe197aaeb4" width=50% height=50%> 
+
   - Algunas preguntas guía
-    - xxxxxxxxx
-    - xxxxxxxxx
-   
+    - ¿Cuáles son las conexiones en este ejemplo?
+    - ¿Por qué está mal la segunda RC?
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/f9f05694-ec2c-4ed8-af27-0b190f8164a2">
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/8bea29dd-02f5-4e87-bbbe-8afb0d175a9e">
+
 --------------------------------------------------------------------------------------
 ### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
 - [MODULO 3 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod03%20-%20Problema.pdf)
@@ -153,23 +159,41 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 
 --------------------------------------------------------------------------------------
 ### Claves para desarrollar alternativas de manejo.
-- [MODULO 5 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod05%20-%20Alternativas.pdf)
+- [MODULO 5 - **Presentacion Alternativas**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod05%20-%20Alternativas.pdf)
 
 --------------------------------------------------------------------------------------
 ### Predicción de consecuencias, modelado y probabilidad condicional - diagramas de influencia, redes de decisión.
-- [MODULO 6 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod06%20-%20Consecuencias.pdf)
+- [MODULO 6 - **Presentacion Consecuencias**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod06%20-%20Consecuencias.pdf)
+
 
 --------------------------------------------------------------------------------------
 ## DIA 3
 
+### Redes Bayesianas
 - [MODULO Practico - **Redes de creencia Bayesianas en el software NETICA**]()
 
+### Compromisos: Repaso por métodos de análisis y optimización
+- [MODULO 7 - **Presentacion Compromisos**]()
+
+### Continua trabajo grupal y armado de Redes Bayesianas
+--------------------------------------------------------------------------------------
+## DIA 4
+
+- [Práctica - **Discusión de paper**](rusch 2016 y Rositano 2014)
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/ab6447ae-255d-46c2-babd-e46fbe9145df" width=50% height=50%> 
+
+<img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76d041d7-29b1-4ab4-8881-85eb73716c99" width=50% height=50%> 
+
+  - Algunas preguntas guía
+    - ¿Cuáles son las conexiones en este ejemplo?
+    - ¿Por qué está mal la segunda RC?
+    - 
+## Ejercicios
+![image](https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/29ad48ba-f801-4a51-9880-c955478f1b29)
 
 
 
-## Miércoles
-- Presentaciones avance del trabajo
-- Práctico continuación de trabajos grupales
 ## Jueves
 - MODULO 9: Métodos de análisis y optimización para selección de alternativas:
 Tablas de consecuencia, árboles de decisión, Redes de creencia Bayesiana
