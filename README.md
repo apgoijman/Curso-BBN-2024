@@ -48,7 +48,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 ### Generalidades sobre manejo y conservación de recursos naturales.
 - [MODULO 1 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod01%20-%20ManejoGral.pdf)
-   
+------------------------------------------------------------------------------------   
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Journal%20of%20Applied%20Ecology%20-%202023%20-%20Garibaldi%20-%20How%20to%20design%20multifunctional%20landscapes.pdf)
 
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/02c27b9c-89dc-441f-a381-f7c9cdc635d9" width=50% height=50%> 
@@ -59,10 +59,10 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
     - ¿Qué manejo proponen para los parches de hábitat natural? ¿por qué piensan?
     - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
     - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
-
+------------------------------------------------------------------------------------
 ### Toma de decisiones y breve introducción a Redes Bayesianas
 - [MODULO 2 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod02%20-%20IntroTDyRB.pdf)
-
+------------------------------------------------------------------------------------
 - **Practico armado red conceptual** [2hs]
    - Nos dividimos en 4 grupos
    - Elegir un proyecto en el que quieran trabajar (15 minutos)
@@ -73,10 +73,11 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/7462c030-3079-4f51-8d4f-91d8309a3abc" width=50% height=50%>
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76850029-5495-447b-9b69-aa5c7f834076" width=50% height=50%>
 
-
+------------------------------------------------------------------------------------
 ### Redes Bayesianas (Intro)
 - [MODULO Practico - **Redes de creencia Bayesianas en el software NETICA**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20ModPractico%20-%20Netica%20y%20BBN.pdf)
 
+------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 ## DIA 2
@@ -92,7 +93,7 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/8bea29dd-02f5-4e87-bbbe-8afb0d175a9e">
 
-
+------------------------------------------------------------------------------------
 ### Definición y enmarcado del problema de decisión, Identificación del tomador de decisión y actores relevantes.
 - [MODULO 3 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod03%20-%20Problema.pdf)
 
@@ -117,12 +118,12 @@ Elementos a considerar:
    •	Alcance – ¿Cuán amplia o complicada es la decisión?
    •	Clase o tipo de problema – ¿Cuantos objetivos? ¿Están en conflicto? ¿Cuál es el nivel de incertidumbre?
 ````
-
+------------------------------------------------------------------------------------
 ### Determinando objetivos: Clasificación de objetivos y atributos medibles.
 - [MODULO 4 - **Presentacion**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod04%20-%20Objetivos.pdf)
-  
+------------------------------------------------------------------------------------  
 ### Modulo Práctico: Objetivos
-
+------------------------------------------------------------------------------------
 - **Practico delineando objetivos** [2hs]
   - Cada grupo continúa trabajando en el problema, definiendo objetivos
   - Clasificar objetivos y definir atributos medibles para cada objetivo
@@ -163,53 +164,57 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 ## DIA 3
 
 - **PUESTA EN COMÚN TRABAJOS GRUPALES**
-
+------------------------------------------------------------------------------------
 ### Claves para desarrollar alternativas de manejo.
 - [MODULO 5 - **Presentacion Alternativas**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod05%20-%20Alternativas.pdf)
-
+------------------------------------------------------------------------------------
 ### Modulo Práctico: Alternativas
-
+------------------------------------------------------------------------------------
 ### Predicción de consecuencias, modelado y probabilidad condicional - diagramas de influencia, redes de decisión.
 - [MODULO 6 - **Presentacion Consecuencias**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod06%20-%20Consecuencias.pdf)
-
+------------------------------------------------------------------------------------
 ### Modulo Práctico: Consecuencias
 
+------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 ## DIA 4
 
 - **TRABAJOS GRUPALES (cont.)**
-  
+------------------------------------------------------------------------------------  
 ### Compromisos: Repaso por métodos de análisis y optimización
 - [MODULO 7 - **Presentacion Compromisos**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod07%20-%20Compromisos.pdf)
-
+------------------------------------------------------------------------------------
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Rusch%202017.pdf)
 
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76d041d7-29b1-4ab4-8881-85eb73716c99" width=50% height=50%> 
 
   - Algunas preguntas guía:...
     
-
+------------------------------------------------------------------------------------
 ### Modulo Práctico: Compromisos
-
+------------------------------------------------------------------------------------
 ### Ejercicios
 ![image](https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/29ad48ba-f801-4a51-9880-c955478f1b29)
 
-
+------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 ## DIA 5
 
 ### Incertidumbre y análisis de sensibilidad
 - [MODULO 8 - **Presentacion Incertidumbre**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod08%20-%20Incertidumbre.pdf)
-
+------------------------------------------------------------------------------------
 ### Modulo Práctico: Análsiis de sensibilidad
-
+------------------------------------------------------------------------------------
 - **TRABAJOS GRUPALES (cont.)**
-
+------------------------------------------------------------------------------------
 - **PRESENTACIONES FINALES**
 
-
+------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
