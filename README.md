@@ -60,6 +60,9 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
     - ¿En cual de los pasos ven la posibilidad de un análisis cuantitativo?
     - ¿Cómo se evalúa el éxito y se implementa el aprendizaje?
 
+### Redes Bayesianas (Intro)
+- [MODULO Practico - **Redes de creencia Bayesianas en el software NETICA**]()
+
 
 ------------------------------------------------------------------------------------
 ### Toma de decisiones y breve introducción a Redes Bayesianas
@@ -75,6 +78,9 @@ El curso está orientado a proveer bases y herramientas para el manejo y la cons
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/7462c030-3079-4f51-8d4f-91d8309a3abc" width=50% height=50%>
 <img src="https://github.com/apgoijman/Curso-BBN-2024/assets/124918841/76850029-5495-447b-9b69-aa5c7f834076" width=50% height=50%>
   
+
+
+
 --------------------------------------------------------------------------------- 
 ## DIA 2
 - [Práctica - **Discusión de paper**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/BIBLIOGRAFIA/Aguilera%202011.pdf)
@@ -169,8 +175,7 @@ RECETARIO PARA DETERMINAR OBJETIVOS
 --------------------------------------------------------------------------------------
 ## DIA 3
 
-### Redes Bayesianas
-- [MODULO Practico - **Redes de creencia Bayesianas en el software NETICA**]()
+
 
 ### Compromisos: Repaso por métodos de análisis y optimización
 - [MODULO 7 - **Presentacion Compromisos**](https://github.com/apgoijman/Curso-BBN-2024/blob/main/PRESENTACIONES/2024%20Mod07%20-%20Compromisos.pdf)
