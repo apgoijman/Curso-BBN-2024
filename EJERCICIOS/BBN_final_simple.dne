@@ -1,0 +1,428 @@
+// ~->[DNET-1]->~
+
+// File created by GoijmanA at INTA using Netica 6.09 on May 15, 2024 at 15:06:28 UTC.
+
+bnet BBN_final_simple {
+autoupdate = TRUE;
+whenchanged = 1715784219;
+
+visual V1 {
+	defdispform = LABELBOX;
+	nodelabeling = TITLE;
+	NodeMaxNumEntries = 50;
+	nodefont = font {shape= "Arial"; size= 18;};
+	linkfont = font {shape= "Arial"; size= 9;};
+	ShowLinkStrengths = 1;
+	windowposn = (14, 1, 826, 613);
+	CommentWindowPosn = (50, 50, 619, 560);
+	resolution = 72;
+	magnification = 0.5;
+	drawingbounds = (3158, 1981);
+	showpagebreaks = TRUE;
+	usegrid = TRUE;
+	gridspace = (6, 6);
+	NodeSet Node {BuiltIn = 1; Color = 0x00c0c0c0;};
+	NodeSet Nature {BuiltIn = 1; Color = 0x00ffffae;};
+	NodeSet Deterministic {BuiltIn = 1; Color = 0x00ffffae;};
+	NodeSet Finding {BuiltIn = 1; Color = 0x00c8c8c8;};
+	NodeSet Constant {BuiltIn = 1; Color = 0x00ffffff;};
+	NodeSet ConstantValue {BuiltIn = 1; Color = 0x00ffffb4;};
+	NodeSet Utility {BuiltIn = 1; Color = 0x00ffbdbd;};
+	NodeSet Decision {BuiltIn = 1; Color = 0x00c4d6ff;};
+	NodeSet Documentation {BuiltIn = 1; Color = 0x00f0fafa;};
+	NodeSet Title {BuiltIn = 1; Color = 0x00ffffff;};
+	NodeSet modelos {Color = 0x00ffb7ff;};
+	NodeSet fundamentales {Color = 0x003fe0bc;};
+	PrinterSetting A {
+		margins = (1270, 1270, 1270, 1270);
+		magnify = 0.95;
+		};
+	};
+
+node decision {
+	discrete = TRUE;
+	states = (redins_nomanejo, redins_plant, redins_crecer, ins_nomanejo, ins_crecer, ins_plant);
+	kind = DECISION;
+	chance = DETERMIN;
+	parents = ();
+	functable = 
+		
+		  (redins_crecer);
+	whenchanged = 1715784219;
+	visual V1 {
+		center = (786, 132);
+		dispform = BELIEFBARS;
+		height = 3;
+		};
+	};
+
+node costs {
+	discrete = FALSE;
+	levels = (0, 300, 600, 900, 1200, 4981);
+	kind = NATURE;
+	chance = DETERMIN;
+	parents = (decision);
+	functable = 
+		                    // decision        
+		  (#0,              // redins nomanejo 
+		   #3,              // redins plant    
+		   #1,              // redins crecer   
+		   #2,              // ins nomanejo    
+		   #3,              // ins crecer      
+		   #4);             // ins plant       ;
+	title = "costo (u$s)";
+	whenchanged = 1565277135;
+	visual V1 {
+		center = (696, 648);
+		dispform = BELIEFBARS;
+		MaxNumEntries = 5;
+		height = 8;
+		};
+	};
+
+node ins2 {
+	discrete = TRUE;
+	statetitles = ("Si", "No");
+	levels = (1, 0);
+	kind = NATURE;
+	chance = DETERMIN;
+	parents = (decision);
+	functable = 
+		                    // decision        
+		  (#1,              // redins nomanejo 
+		   #1,              // redins plant    
+		   #1,              // redins crecer   
+		   #0,              // ins nomanejo    
+		   #0,              // ins crecer      
+		   #0);             // ins plant       ;
+	title = "Insecticida";
+	whenchanged = 1715096493;
+	visual V1 {
+		center = (1272, 282);
+		dispform = BELIEFBARS;
+		height = 4;
+		link 1 {
+			path = ((1015, 202), (1143, 242));
+			};
+		};
+	};
+
+node modelcent {
+	discrete = TRUE;
+	states = (No_efecto, Insecticida);
+	statetitles = ("No efecto", "Insecticida");
+	kind = NATURE;
+	chance = CHANCE;
+	parents = ();
+	probs = 
+		// No efecto    Insecticida  
+		  (0.22,        0.78);
+	title = "Modelos centro";
+	whenchanged = 1715095262;
+	visual V1 {
+		center = (216, 408);
+		dispform = BELIEFBARS;
+		height = 11;
+		};
+	};
+
+node acenter {
+	discrete = TRUE;
+	states = (yes, no);
+	statetitles = ("si", "no");
+	kind = NATURE;
+	chance = CHANCE;
+	parents = (modelcent, ins2);
+	probs = 
+		// si           no            // modelcent   ins2 
+		  (0.9393461,   0.0606539,    // No efecto   Si   
+		   0.9393461,   0.0606539,    // No efecto   No   
+		   0.7074435,   0.2925565,    // Insecticida Si   
+		   0.866805,    0.133195);    // Insecticida No   ;
+	equation = "p (acenter | modelcent, ins2) = \n\
+		modelcent==No_efecto? (acenter==yes? 1/(1+exp(-2.74)): 1-(1/(1+exp(-2.74)))):\n\
+		modelcent==Insecticida? (acenter==yes? \
+		1/(1+exp(-1.873+0.99*ins2)):1-(1/(1+exp(-1.873+0.99*ins2))))\n\
+		:0\n\
+		";
+	title = "Ocupacion Aves Centro";
+	whenchanged = 1715106966;
+	visual V1 {
+		center = (726, 360);
+		dispform = BELIEFBARS;
+		height = 5;
+		};
+	};
+
+node cosecha {
+	discrete = FALSE;
+	levels = (1800, 2100, 2400, 2576);
+	kind = NATURE;
+	chance = CHANCE;
+	parents = (acenter, decision);
+	probs = 
+		// 1800 to 2100 2100 to 2400 2400 to 2576  // acenter decision        
+		  (0.6,         0.25,        0.15,         // si      redins nomanejo 
+		   0.65,        0.25,        0.1,          // si      redins plant    
+		   0.7,         0.25,        0.05,         // si      redins crecer   
+		   0.15,        0.1,         0.75,         // si      ins nomanejo    
+		   0.1,         0.1,         0.8,          // si      ins crecer      
+		   0.05,        0.1,         0.85,         // si      ins plant       
+		   0.9,         0.05,        0.05,         // no      redins nomanejo 
+		   0.85,        0.05,        0.1,          // no      redins plant    
+		   0.8,         0.05,        0.15,         // no      redins crecer   
+		   0.3,         0.09999996,  0.6,          // no      ins nomanejo    
+		   0.25,        0.1,         0.65,         // no      ins crecer      
+		   0.2,         0.1,         0.7);         // no      ins plant       ;
+	title = "Cosecha soja (kg/Ha)";
+	whenchanged = 1715096499;
+	visual V1 {
+		center = (1182, 516);
+		dispform = BELIEFBARS;
+		height = 10;
+		link 1 {
+			path = ((867, 409), (997, 454));
+			};
+		};
+	};
+
+node Narbol {
+	discrete = TRUE;
+	states = (ninguno, tres, diez);
+	levels = (0, 3, 10);
+	kind = NATURE;
+	chance = CHANCE;
+	parents = (decision);
+	probs = 
+		// ninguno      tres         diez          // decision        
+		  (0.7,         0.29,        0.01,         // redins nomanejo 
+		   0.01,        0.09,        0.9,          // redins plant    
+		   0.03,        0.7,         0.27,         // redins crecer   
+		   0.7,         0.29,        0.01,         // ins nomanejo    
+		   0.03,        0.7,         0.27,         // ins crecer      
+		   0.01,        0.09,        0.9);         // ins plant       ;
+	numcases = 1;
+	title = "Arboles en borde";
+	whenchanged = 1565277163;
+	visual V1 {
+		center = (189, 120);
+		dispform = BELIEFBARS;
+		height = 1;
+		};
+	};
+
+node bienestar {
+	discrete = FALSE;
+	statetitles = ("bajo", "mediobajo", "medio", "alto");
+	levels = (-3.99960199105143, -0.2, 0.1, 0.4, 0.6);
+	kind = NATURE;
+	chance = CHANCE;
+	parents = (cosecha, ins2);
+	probs = 
+		// bajo         mediobajo    medio        alto          // cosecha      ins2 
+		  (0.997012,    9.96016e-4,  9.96016e-4,  9.96016e-4,   // 1800 to 2100 Si   
+		   9.96016e-4,  0.4063745,   0.5916334,   9.96016e-4,   // 1800 to 2100 No   
+		   0.997012,    9.96016e-4,  9.96016e-4,  9.96016e-4,   // 2100 to 2400 Si   
+		   9.96016e-4,  9.96016e-4,  0.7111554,   0.2868526,    // 2100 to 2400 No   
+		   0.997012,    9.96016e-4,  9.96016e-4,  9.96016e-4,   // 2400 to 2576 Si   
+		   9.96016e-4,  9.96016e-4,  9.96016e-4,  0.997012);    // 2400 to 2576 No   ;
+	numcases = 1004;
+	equation = "bienestar (cosecha, ins2) = \n((cosecha-1800)/(2576-1800))*0.6 - ins2*04";
+	title = "Bienestar";
+	comment = "\n";
+	whenchanged = 1715106966;
+	visual V1 {
+		center = (1212, 774);
+		dispform = BELIEFBARS;
+		height = 6;
+		};
+	};
+
+node modelbor {
+	discrete = TRUE;
+	states = (No_efecto, Arboles);
+	statetitles = ("No efecto", "\FF\FE\C1\00r\00b\00o\00l\00");
+	kind = NATURE;
+	chance = CHANCE;
+	parents = ();
+	probs = 
+		// No efecto    Arboles      
+		  (0.07,        0.93);
+	title = "Modelos borde";
+	whenchanged = 1715095264;
+	visual V1 {
+		center = (378, 288);
+		dispform = BELIEFBARS;
+		height = 13;
+		};
+	};
+
+node avesborde {
+	discrete = TRUE;
+	states = (yes, no);
+	statetitles = ("si", "no");
+	kind = NATURE;
+	chance = CHANCE;
+	parents = (modelbor, Narbol);
+	probs = 
+		// si           no            // modelbor  Narbol  
+		  (0.5719962,   0.4280039,    // No efecto ninguno 
+		   0.5719962,   0.4280039,    // No efecto tres    
+		   0.5719962,   0.4280039,    // No efecto diez    
+		   0.3635475,   0.6364526,    // Arboles   ninguno 
+		   0.840238,    0.159762,     // Arboles   tres    
+		   0.9989311,   0.001068959); // Arboles   diez    ;
+	equation = "p (avesborde | modelbor, Narbol) = \n\
+		modelbor==No_efecto? (avesborde==yes? 1/(1+exp(-0.29)): 1-(1/(1+exp(-0.29)))):\n\
+		modelbor==Arboles? (avesborde==yes? \
+		1/(1+exp(0.56-0.74*Narbol)):1-(1/(1+exp(0.56-0.74*Narbol)))):\n\
+		0";
+	title = "Ocupacion Aves borde";
+	whenchanged = 1715106966;
+	visual V1 {
+		center = (192, 546);
+		dispform = BELIEFBARS;
+		height = 9;
+		};
+	};
+
+node birds {
+	discrete = TRUE;
+	statetitles = ("bajo", "mediobajo", "medio", "alto");
+	levels = (0, 1, 2, 3);
+	kind = NATURE;
+	chance = DETERMIN;
+	parents = (acenter, avesborde);
+	functable = 
+		                    // acenter avesborde 
+		  (#3,              // si      si        
+		   #1,              // si      no        
+		   #2,              // no      si        
+		   #0);             // no      no        ;
+	equation = "birds (acenter, avesborde) = \n\
+		((avesborde==no) && (acenter==yes))?1:\n\
+		((avesborde==yes) && (acenter==no))?2:\n\
+		((avesborde==yes) && (acenter==yes))?3:\n\
+		0";
+	title = "aves";
+	whenchanged = 1715106966;
+	visual V1 {
+		center = (216, 750);
+		dispform = BELIEFBARS;
+		height = 7;
+		};
+	};
+
+node utilitidad {
+	discrete = FALSE;
+	measure = RATIO;
+	kind = UTILITY;
+	chance = DETERMIN;
+	parents = (bienestar, costs, birds);
+	functable = 
+		                 // bienestar costs        birds     
+		  (-0.3886105,   // bajo      0 to 300     bajo      
+		   -0.2920289,   // bajo      0 to 300     mediobajo 
+		   -0.1473297,   // bajo      0 to 300     medio     
+		   -0.06044663,  // bajo      0 to 300     alto      
+		   -0.4052053,   // bajo      300 to 600   bajo      
+		   -0.3041642,   // bajo      300 to 600   mediobajo 
+		   -0.1932683,   // bajo      300 to 600   medio     
+		   -0.08491559,  // bajo      300 to 600   alto      
+		   -0.4344508,   // bajo      600 to 900   bajo      
+		   -0.3218801,   // bajo      600 to 900   mediobajo 
+		   -0.2241668,   // bajo      600 to 900   medio     
+		   -0.1060103,   // bajo      600 to 900   alto      
+		   -0.4561236,   // bajo      900 to 1200  bajo      
+		   -0.3557585,   // bajo      900 to 1200  mediobajo 
+		   -0.2419605,   // bajo      900 to 1200  medio     
+		   -0.1248841,   // bajo      900 to 1200  alto      
+		   -0.5746428,   // bajo      1200 to 4981 bajo      
+		   -0.4797166,   // bajo      1200 to 4981 mediobajo 
+		   -0.3929706,   // bajo      1200 to 4981 medio     
+		   -0.2630828,   // bajo      1200 to 4981 alto      
+		   0.3025803,    // mediobajo 0 to 300     bajo      
+		   0.4138411,    // mediobajo 0 to 300     mediobajo 
+		   0.5226969,    // mediobajo 0 to 300     medio     
+		   0.6328428,    // mediobajo 0 to 300     alto      
+		   0.2829954,    // mediobajo 300 to 600   bajo      
+		   0.3940032,    // mediobajo 300 to 600   mediobajo 
+		   0.5023639,    // mediobajo 300 to 600   medio     
+		   0.6130676,    // mediobajo 300 to 600   alto      
+		   0.2654513,    // mediobajo 600 to 900   bajo      
+		   0.3735363,    // mediobajo 600 to 900   mediobajo 
+		   0.4833525,    // mediobajo 600 to 900   medio     
+		   0.5928226,    // mediobajo 600 to 900   alto      
+		   0.2433214,    // mediobajo 900 to 1200  bajo      
+		   0.35306,      // mediobajo 900 to 1200  mediobajo 
+		   0.4635544,    // mediobajo 900 to 1200  medio     
+		   0.5751647,    // mediobajo 900 to 1200  alto      
+		   0.1106883,    // mediobajo 1200 to 4981 bajo      
+		   0.2203018,    // mediobajo 1200 to 4981 mediobajo 
+		   0.3275191,    // mediobajo 1200 to 4981 medio     
+		   0.4372745,    // mediobajo 1200 to 4981 alto      
+		   0.4058535,    // medio     0 to 300     bajo      
+		   0.5153292,    // medio     0 to 300     mediobajo 
+		   0.6242515,    // medio     0 to 300     medio     
+		   0.7340542,    // medio     0 to 300     alto      
+		   0.3858525,    // medio     300 to 600   bajo      
+		   0.4953923,    // medio     300 to 600   mediobajo 
+		   0.6062943,    // medio     300 to 600   medio     
+		   0.7153924,    // medio     300 to 600   alto      
+		   0.3632662,    // medio     600 to 900   bajo      
+		   0.4750859,    // medio     600 to 900   mediobajo 
+		   0.5850427,    // medio     600 to 900   medio     
+		   0.6951722,    // medio     600 to 900   alto      
+		   0.3449209,    // medio     900 to 1200  bajo      
+		   0.456766,     // medio     900 to 1200  mediobajo 
+		   0.5654086,    // medio     900 to 1200  medio     
+		   0.6737049,    // medio     900 to 1200  alto      
+		   0.2112458,    // medio     1200 to 4981 bajo      
+		   0.3205014,    // medio     1200 to 4981 mediobajo 
+		   0.4352153,    // medio     1200 to 4981 medio     
+		   0.5429633,    // medio     1200 to 4981 alto      
+		   0.4905586,    // alto      0 to 300     bajo      
+		   0.5995156,    // alto      0 to 300     mediobajo 
+		   0.7100093,    // alto      0 to 300     medio     
+		   0.8207939,    // alto      0 to 300     alto      
+		   0.4711062,    // alto      300 to 600   bajo      
+		   0.5798311,    // alto      300 to 600   mediobajo 
+		   0.6902853,    // alto      300 to 600   medio     
+		   0.8003013,    // alto      300 to 600   alto      
+		   0.4505652,    // alto      600 to 900   bajo      
+		   0.5602964,    // alto      600 to 900   mediobajo 
+		   0.6702486,    // alto      600 to 900   medio     
+		   0.7815772,    // alto      600 to 900   alto      
+		   0.4312055,    // alto      900 to 1200  bajo      
+		   0.5411261,    // alto      900 to 1200  mediobajo 
+		   0.6497366,    // alto      900 to 1200  medio     
+		   0.7595918,    // alto      900 to 1200  alto      
+		   0.2977259,    // alto      1200 to 4981 bajo      
+		   0.4036669,    // alto      1200 to 4981 mediobajo 
+		   0.5179306,    // alto      1200 to 4981 medio     
+		   0.6267199);   // alto      1200 to 4981 alto      ;
+	equation = "utilitidad (bienestar, costs, birds) = \n0.33*(4981-costs)/4981+(birds/3)*0.33+0.34*bienestar";
+	title = "Utilidad";
+	whenchanged = 1715106966;
+	visual V1 {
+		center = (660, 888);
+		dispform = BELIEFBARS;
+		height = 2;
+		};
+	};
+
+node TITLE1 {
+	discrete = FALSE;
+	kind = CONSTANT;
+	parents = ();
+	title = "fundamentales";
+	whenchanged = 1715711286;
+	visual V1 {
+		center = (1530, 732);
+		dispform = BELIEFBARS;
+		height = 12;
+		};
+	};
+NodeSet modelos {Nodes = (modelcent, modelbor);};
+NodeSet fundamentales {Nodes = (birds, costs, bienestar, TITLE1);};
+};
